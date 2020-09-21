@@ -59,6 +59,7 @@ def login(request):
         return render(request, 'axf/user/login/login.html')
     elif request.method=='POST':
         # 先验证验证码 减少io操作
+
         # 然后获取到页面中你输入得验证码
         imgcode=request.POST.get('imgCode')
         # 然后将他与随机生成得验证码对比 这个验证码永远都是和session绑定的

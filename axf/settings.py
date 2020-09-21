@@ -157,7 +157,7 @@ CACHES={
             'OPTIONS':{
                         'CLIENT_CLASS':'django_redis.client.DefaultClient'
                         },
-            'TIMEOUT':60,
+            'TIMEOUT':80,
             }
                 }
 
